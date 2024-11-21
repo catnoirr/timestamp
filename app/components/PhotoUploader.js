@@ -37,7 +37,7 @@ export default function PhotoUploader() {
       ctx.font = "100px Arial";
       ctx.fillStyle = "white";
       ctx.strokeStyle = "black";
-      ctx.lineWidth = 2;
+      ctx.lineWidth = 2;  
 
       const textWidth = ctx.measureText(timestamp).width;
       const x = position === "right" ? img.width - textWidth - 20 : 20;
